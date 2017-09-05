@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_item"
+        android:title="编辑"
+        />
+    <item
+        android:id="@+id/show_item_delete"
+        android:title="删除"
+        />
+    <item
+        android:id="@+id/show_item_isFinished"
+        android:title="更改状态"
+        />
+</menu>

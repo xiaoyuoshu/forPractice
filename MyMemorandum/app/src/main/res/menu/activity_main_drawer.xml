@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="?android:attr/actionModeCopyDrawable"
+        android:title="分类">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:title="全部" />
+            <item
+                android:id="@+id/nav_finished"
+                android:title="已完成" />
+            <item
+                android:id="@+id/nav_unfinished"
+                android:title="未完成" />
+        </menu>
+    </item>
+
+    <item
+        android:icon="?android:attr/actionModePasteDrawable"
+        android:title="排序">
+        <menu>
+            <item
+                android:id="@+id/nav_default"
+                android:title="默认" />
+            <item
+                android:id="@+id/nav_end_time"
+                android:title="按截止时间排序" />
+            <item
+                android:id="@+id/nav_title"
+                android:title="按标题排序" />
+        </menu>
+    </item>
+
+</menu>
